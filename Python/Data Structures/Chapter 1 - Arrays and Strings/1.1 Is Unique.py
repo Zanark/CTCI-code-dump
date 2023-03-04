@@ -7,8 +7,7 @@ def isUnique(inputString):
             return False
         else:
             charSet.add(c)
-    return True
-    
+    return True    
 
 if __name__ == '__main__':
     inputString = input("Enter the string >> \t")

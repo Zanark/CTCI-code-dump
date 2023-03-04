@@ -15,8 +15,7 @@ def permutatedStrings(inputString1, inputString2):
             continue
         else:
             return False
-    return True
-    
+    return True    
 
 if __name__ == '__main__':
     inputString1 = input("Enter string1 >> \t")

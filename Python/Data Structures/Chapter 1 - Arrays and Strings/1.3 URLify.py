@@ -6,8 +6,7 @@ def URLify(inputString, trueLength):
         if c == ' ':
             c = '%20'
         urlString += c 
-    return urlString
-    
+    return urlString    
 
 if __name__ == '__main__':
     inputString = input("Enter the string >> \t")
