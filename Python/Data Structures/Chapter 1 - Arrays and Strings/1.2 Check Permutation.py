@@ -1,4 +1,4 @@
-def isUnique(inputString1, inputString2):
+def permutatedStrings(inputString1, inputString2):
     if len(inputString1) != len(inputString2):
         return False
     combinedCharSet = {}
@@ -21,4 +21,4 @@ def isUnique(inputString1, inputString2):
 if __name__ == '__main__':
     inputString1 = input("Enter string1 >> \t")
     inputString2 = input("\nEnter string2 >> \t")
-    print("Are the two strings permutations of each other? >>\t" + str(isUnique(inputString1, inputString2)))
+    print("Are the two strings permutations of each other? >>\t" + str(permutatedStrings(inputString1, inputString2)))
